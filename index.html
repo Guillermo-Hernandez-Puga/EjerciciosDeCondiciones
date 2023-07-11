@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Ejercicios de Condiciones</title>
+  
+</head>
+<body>
+    <div class="container">
+               <H1>Ejercicios</H1>
+
+            <div class="Primer_Ejercicio contenedor_2"  >
+                <h2>Agregar y quitar Borde</h2>
+                <div >
+                    <img onclick="cambio()" id="caja" class="caja" src="./assets/img/gato_animado.jpg" width="300" height="300">
+                </div>
+                
+
+            </div>
+
+            <div class="Segundo_Ejercicio contenedor_2" >
+               <div class="titulos">
+                 <h2>Compra de Stickers</h2>
+                <p>Puedes llevar hasta 10 Stickers en total</p>
+               </div>
+            <div class="stickers">
+              
+                <div class="img" >
+                   <img  src="./assets/img/dragon ball goku.webp" width="200" height="200">
+                   <input id="numero1" type="text">
+                </div>
+                <div class="img">
+                    <img src="./assets/img/dragon ball krilin.webp" width="200" height="200">
+
+                    <input id="numero2" type="text">
+                </div>
+                <div class="img">
+                    <img src="./assets/img/dragon ball picolo.webp" width="200" height="200">
+                    
+                    <input id="numero3" type="text">   
+                </div> 
+              </div>        
+            <div class="Verificar">
+                <p><span id="resultado"></span></p>
+                <button onclick="valor()">Verificar</button>
+            </div>  
+            
+            </div>
+
+            <div class="Tercer_Ejercicio contenedor_2 " >
+                <h2>Ingresa el Password</h2>
+           <div class="select">
+                <select id="num1" onchange="">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                 <select id="num2" onchange="">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+
+                <select id="num3" onchange="">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+                <div class="Verificar">
+                    
+                    <button onclick="valor1()">Verificar</button>
+                    <p><span id="resultado1"></span></p>
+                </div>
+           </div>
+
+
+
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
