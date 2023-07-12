@@ -15,13 +15,13 @@
 
 
 function valor(){
-    let valor1=parseInt(document.getElementById('numero1').value)
-    let valor2 = parseInt (document.getElementById('numero2').value)
-    let valor3 = parseInt (document.getElementById('numero3').value)
+    let valor1=Number(document.getElementById('numero1').value)
+    let valor2 = Number(document.getElementById('numero2').value)
+    let valor3 = Number (document.getElementById('numero3').value)
     if(valor1>=0 && valor2>=0 && valor3>=0){
     let total= valor1 + valor2 + valor3
     let span=document.querySelector('#resultado')
-    span,innerHTML=total
+    
      if(total<=10){
       span.innerHTML="Llevas "+total+" stickers";
     }else{
